@@ -1,0 +1,52 @@
+@import 'mixins'
+
+.gallery
+
+  .box-1
+    +box-prop(#f5989d)
+
+  .box-2
+    +box-prop(#615f7d)
+
+  .box-3
+    +box-prop(#48566b)
+    background: url('img/box-3.jpg')
+
+  .box-4
+    +box-prop(#bd8cbf)
+
+  .box-5
+    +box-prop(#a9a195)
+    background: url('img/box-5.jpg')
+
+  .box-6
+    +box-prop(#82ca9c)
+
+  .box-7
+    +box-prop(#324e4a)
+    background: url('img/car.jpeg')no-repeat
+    background-size: cover
+    overflow: hidden
+
+  h1
+    color: $white
+    font-family: $font-open
+    font-size: $font-base + 14px
+    font-weight: $light
+
+  p
+    color: $white
+    font-size: $font-base - 3px
+    font-weight: $regular
+    line-height: 24px
+
+  [class*='box-']
+
+    span
+      +span-after
+      color: $white
+      font-size: $font-base - 2px
+      font-weight: $semi-bold
+      line-height: 24px
+      position: absolute
+

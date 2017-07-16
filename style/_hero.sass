@@ -1,0 +1,87 @@
+@import 'mixins'
+
+
+.hero
+  +background-control(100vh)
+  background-image: url('img/hero.jpg')
+
+  aside
+
+    p
+      color: $white
+      display: block
+      font-family: $font-open
+      font-size: $font-base - 4px
+      font-weight: $light
+      left: -30px
+      margin: 0
+      padding: 0
+      position: absolute
+      text-transform: uppercase
+      top: 50%
+      transform: rotate(-90deg)
+
+.left-side
+  display: flex
+  flex-direction: column
+  float: left
+  margin: 0
+
+
+.logo
+  display: flex
+  left: 40px
+  max-height: 43px
+  position: relative
+  top: 10vh
+
+
+  & p
+    color: $white
+    font-family: $font-merriweather
+    font-style: italic
+    font-weight: 800
+    line-height: 21px
+    margin: 10px
+
+
+.perfect
+  margin-left: 20px
+  margin-top: 60%
+
+  h1
+    color: $white
+    font-family: $font-open
+    font-size: $font-base + 44px
+    font-weight: $light
+    margin-bottom: 0
+
+  p
+    color: $white
+    font-family: $font-open
+    font-size: $font-base - 3px
+    font-weight: $regular
+    line-height: 24px
+
+
+.right-side
+  background-image: url('img/phone.png')
+  background-position: center center
+  background-repeat: no-repeat
+  background-size: cover
+  float: left
+  min-height: 95vh
+  min-width: 359px
+  position: relative
+  right: 50px
+  top: 300px
+
+
+
+
+
+
+
+
+
+  

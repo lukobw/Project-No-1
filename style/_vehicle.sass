@@ -1,0 +1,35 @@
+@import 'mixins'
+
+.vehicle
+  +background-control(1000px)
+  background-image: url('img/car.jpg')
+
+  h1
+    color: $white
+    font-family: $font-open
+    font-size: $font-base + 44px
+    font-weight: $light
+
+  p
+    color: $white
+    font-family: $font-open
+    font-size: $font-base - 3px
+    font-weight: $regular
+    line-height: 24px
+    max-width: 440px
+    padding-bottom: 20px
+
+  span
+    +span-after
+    color: $white
+    font-family: $font-open
+    font-size: $font-base - 2px
+    font-weight: $semi-bold
+    line-height: 24px
+
+
+
+  .col-6
+    padding-top: 500px
+
+

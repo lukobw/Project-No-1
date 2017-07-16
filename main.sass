@@ -1,0 +1,41 @@
+@import 'style/hero'
+
+@import 'style/loops'
+
+@import 'style/mixins'
+
+@import 'style/loops'
+
+@import 'style/something-new'
+
+@import 'style/gallery'
+
+@import 'style/details'
+
+@import 'style/vehicle'
+
+@import 'style/onboard'
+
+@import 'style/shop'
+
+@import 'style/buttons'
+
+@import 'style/footer'
+
+
+
+*
+  box-sizing: border-box
+
+body
+  margin: 0
+
+.container
+  margin: 0 auto
+  max-width: 1200px
+
+.row
+  +clearfix
+
+[class*='col-']
+  float: left

@@ -1,0 +1,27 @@
+@import 'fonts'
+
+=clearfix
+  &::after,
+  &::before
+    clear: both
+    content: ''
+    display: table
+
+=background-control ($min-height)
+  background-position: center center
+  background-repeat: no-repeat
+  background-size: cover
+  min-height: $min-height
+  width: 100%
+
+=box-prop ($color)
+  background-color: $color
+  color: $white
+  font-family: $font-open
+  height: 278px
+  padding: 25px
+
+=span-after
+  &::after
+    content: '  \2192'
+
