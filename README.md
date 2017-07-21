@@ -1,1 +1,2 @@
-# layout-cutted-from-graphic-project
+# layout-cut-from-graphic-project
+#no-responisve (yet)
